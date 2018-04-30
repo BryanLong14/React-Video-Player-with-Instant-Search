@@ -1,14 +1,15 @@
-# React with Redux
+# React YouTube Player With Search Site
 
-### Getting Started
+### Live Site
 
-There are two methods for getting started with this repo.
+[Deployed, Live Site](http://bit.ly/YouTubeSearchReact)
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+### Getting Started For Devs
+Clone this repo, install dependencies, then start the gulp process with the following:
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
+> git clone https://github.com/BryanLong14/React-with-Redux-Video-Player.git
+
 > cd ReduxSimpleStarter
 > npm install
 > npm start
