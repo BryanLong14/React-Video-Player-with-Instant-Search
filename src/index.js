@@ -36,15 +36,14 @@ class App extends Component {
       this.videoSearch(term);
     }, 300);
 
-    return <div>
+    return (
+      <div>
         <h1>YouTube Video Player and Search Site</h1>
-        <h2>
-          Immediately Updating Search Results Brought to you by <a href="https://reactjs.org/">React</a>
-        </h2>
         <SearchBar onSearchTermChange={videoSearch} />
         <VideoDetail video={this.state.selectedVideo} />
         <VideoList onVideoSelect={selectedVideo => this.setState({ selectedVideo })} videos={this.state.videos} />
-      </div>;
+      </div>
+    );
   }
 }
 

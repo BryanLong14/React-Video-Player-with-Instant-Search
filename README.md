@@ -1,10 +1,11 @@
-# React YouTube Player With Immediately Updating Search 
+# React YouTube Player With Immediately Updating Search
 
 ### Live Site
 
 [Deployed, Live Site](http://bit.ly/YouTubeSearchReact)
 
 ### Getting Started For Devs
+
 Clone this repo, install dependencies, then start the gulp process with the following:
 
 ```
@@ -13,4 +14,6 @@ Clone this repo, install dependencies, then start the gulp process with the foll
 > cd ReduxSimpleStarter
 > npm install
 > npm start
+or
+> npm run dev
 ```
